@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.image2{
+    background: linear-gradient(45deg, red 5%, orange 20%,yellow 35%,green 50%,blue 65%,indigo 85%,violet 100% );
+}
+
+.image1{
+    filter: drop-shadow(0 0 75px #ff6f00);
+    animation: glow 2s  alternate infinite;
+}
+@keyframes glow{
+    0%{
+        filter: drop-shadow(0 0 10px #ff6f00);
+    }
+    100%{
+        filter: drop-shadow(0 0 25px #ff6f00);
+    }
+}
